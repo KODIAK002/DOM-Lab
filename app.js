@@ -44,7 +44,7 @@ buttons.forEach((button) => {
 
     if (event.target.classList.contains('equals')) {
       if (operator && num1 !== null) {
-        const num2 = parseInt(displayValue); // allows for integer calculation so its not a string
+        const num2 = parseInt(displayValue); // allows for integer calculation so its not a string, parseInt came from stack overflow
 
         if (operator === '+') {
             result = num1 + num2;
